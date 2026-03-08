@@ -1,16 +1,9 @@
-name: Deploy CMS to GitHub Pages
+name: Deploy CDN to GitHub Pages
 
 on:
   push:
     branches: [main]
-    paths:
-      - 'cms/**'
   workflow_dispatch:
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
 
 concurrency:
   group: pages
@@ -20,6 +13,10 @@ jobs:
   deploy:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -32,7 +29,7 @@ jobs:
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: cms
+          path: '.'
 
       - name: Deploy to GitHub Pages
         id: deployment
