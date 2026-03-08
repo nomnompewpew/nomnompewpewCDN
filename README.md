@@ -4,16 +4,17 @@
 
 ## CDN URLs
 
-All assets are served through two endpoints:
+All assets are served through three endpoints:
 
 | Endpoint | Pattern | Notes |
 |----------|---------|-------|
-| **jsDelivr** (cached) | `https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/{path}` | Best for production — globally cached |
+| **GitHub Pages** (static) | `https://nomnompewpew.github.io/nomnompewpewCDN/{path}` | Served directly from this repo — no third-party dependency |
+| **jsDelivr** (cached) | `https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/{path}` | Globally cached mirror |
 | **GitHub Raw** (live) | `https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/{path}` | Always up-to-date, no CDN cache |
 
 **Example:**
 ```
-https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/avatars/photo.png
+https://nomnompewpew.github.io/nomnompewpewCDN/images/avatars/photo.png
 ```
 
 ---
@@ -23,7 +24,7 @@ https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/avatars/pho
 A lightweight browser-based CMS lives at [`cms/index.html`](./cms/index.html).  
 It is automatically deployed to **GitHub Pages** on every push to `main`:
 
-> **Live URL:** https://nomnompewpew.github.io/nomnompewpewCDN/
+> **Live URL:** https://nomnompewpew.github.io/nomnompewpewCDN/cms/
 
 **Features:**
 - 📂 Browse folders in a sidebar tree — click any folder to open it
@@ -38,7 +39,7 @@ It is automatically deployed to **GitHub Pages** on every push to `main`:
 - Right-click context menu on any file or folder
 
 **Setup:**
-1. Visit the live CMS at https://nomnompewpew.github.io/nomnompewpewCDN/ (or open `cms/index.html` locally)
+1. Visit the live CMS at https://nomnompewpew.github.io/nomnompewpewCDN/cms/ (or open `cms/index.html` locally)
 2. Click **Settings** (top-right)
 3. Paste a GitHub PAT with **Contents: Read & Write** permission
 4. Owner / repo / branch are pre-filled — adjust if needed
@@ -122,4 +123,4 @@ npm run check        # validate + manifest in one step
 |----------|---------|-------------|
 | `validate.yml` | Push / PR touching `data/**` | Validates every `.json` against its schema |
 | `generate-manifest.yml` | Push to `main` (asset files) | Regenerates `manifest.json` files and auto-commits |
-| `deploy-pages.yml` | Push to `main` touching `cms/**` (or manual) | Deploys the CMS to GitHub Pages |
+| `deploy-pages.yml` | Push to `main` (or manual) | Deploys the entire repo to GitHub Pages as a static CDN |
