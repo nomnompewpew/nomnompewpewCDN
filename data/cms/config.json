@@ -1,0 +1,12 @@
+{
+  "siteTitle": "nomnompewpew",
+  "siteDescription": "Personal CDN and CMS for nomnompewpew assets",
+  "cdnBase": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main",
+  "version": "1.0.0",
+  "locale": "en-US",
+  "theme": "default.css",
+  "social": {
+    "github": "nomnompewpew"
+  },
+  "updatedAt": "2025-01-01T00:00:00.000Z"
+}

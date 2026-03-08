@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "home",
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "id": "gallery",
+      "label": "Gallery",
+      "href": "/gallery",
+      "children": [
+        { "id": "gallery-images",  "label": "Images",  "href": "/gallery/images" },
+        { "id": "gallery-videos",  "label": "Videos",  "href": "/gallery/videos" }
+      ]
+    },
+    {
+      "id": "about",
+      "label": "About",
+      "href": "/about"
+    }
+  ],
+  "updatedAt": "2025-01-01T00:00:00.000Z"
+}
