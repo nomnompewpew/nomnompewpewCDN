@@ -1,0 +1,20 @@
+{
+  "name": "nomnompewpew-cdn",
+  "version": "1.0.0",
+  "description": "Public CDN for nomnompewpew — images, videos, JSON data, fonts, and CMS-loadable assets",
+  "private": true,
+  "scripts": {
+    "manifest": "node scripts/generate-manifest.js",
+    "validate": "node scripts/validate.js",
+    "check": "npm run validate && npm run manifest"
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "glob": "^11.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED"
+}

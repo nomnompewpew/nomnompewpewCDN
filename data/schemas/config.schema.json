@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/data/schemas/config.schema.json",
+  "title": "CMS Site Config",
+  "description": "Top-level configuration for the nomnompewpew CMS",
+  "type": "object",
+  "required": ["siteTitle", "cdnBase", "version"],
+  "additionalProperties": false,
+  "properties": {
+    "siteTitle": {
+      "type": "string",
+      "description": "Human-readable name of the site"
+    },
+    "siteDescription": {
+      "type": "string",
+      "description": "Short description used in meta tags"
+    },
+    "cdnBase": {
+      "type": "string",
+      "format": "uri",
+      "description": "Base URL for all CDN-hosted assets"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "Semver version of this config"
+    },
+    "locale": {
+      "type": "string",
+      "default": "en-US",
+      "description": "BCP 47 locale tag"
+    },
+    "theme": {
+      "type": "string",
+      "description": "Active CSS theme filename (relative to css/themes/)"
+    },
+    "social": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "twitter": { "type": "string" },
+        "instagram": { "type": "string" },
+        "youtube": { "type": "string" },
+        "github": { "type": "string" }
+      }
+    },
+    "analytics": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "googleAnalyticsId": { "type": "string" },
+        "plausibleDomain": { "type": "string" }
+      }
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

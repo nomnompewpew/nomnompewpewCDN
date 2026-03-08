@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/data/schemas/pages.schema.json",
+  "title": "CMS Pages",
+  "description": "Page manifest for the nomnompewpew CMS",
+  "type": "object",
+  "required": ["pages"],
+  "additionalProperties": false,
+  "properties": {
+    "pages": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/page" }
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "definitions": {
+    "page": {
+      "type": "object",
+      "required": ["id", "slug", "title"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string" },
+        "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "ogImage": {
+          "type": "string",
+          "description": "CDN path for the Open Graph / social share image"
+        },
+        "published": { "type": "boolean", "default": true },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "sections": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/section" }
+        },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      }
+    },
+    "section": {
+      "type": "object",
+      "required": ["type"],
+      "additionalProperties": true,
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["hero", "gallery", "video", "text", "cta", "embed"]
+        },
+        "id": { "type": "string" }
+      }
+    }
+  }
+}

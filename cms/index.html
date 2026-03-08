@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>nomnompewpew CDN — Asset Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── Top Bar ──────────────────────────────────────────── -->
+  <header class="topbar">
+    <button class="btn btn-icon" id="btn-sidebar-toggle" title="Toggle sidebar">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <line x1="3" y1="6"  x2="21" y2="6"/>
+        <line x1="3" y1="12" x2="21" y2="12"/>
+        <line x1="3" y1="18" x2="21" y2="18"/>
+      </svg>
+    </button>
+    <div class="topbar-brand">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="16 18 22 12 16 6"/>
+        <polyline points="8 6 2 12 8 18"/>
+      </svg>
+      <span>CDN Manager</span>
+    </div>
+    <nav class="breadcrumb" id="breadcrumb" aria-label="Path navigation"></nav>
+    <div class="topbar-actions">
+      <button class="btn" id="btn-settings">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="3"/>
+          <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+        </svg>
+        Settings
+      </button>
+    </div>
+  </header>
+
+  <!-- ── Layout ────────────────────────────────────────────── -->
+  <div class="layout">
+
+    <!-- ── Sidebar ────────────────────────────────────────── -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <span>Folders</span>
+        <span id="sidebar-repo-label" class="sidebar-repo"></span>
+      </div>
+      <div class="folder-tree" id="folder-tree"></div>
+    </aside>
+
+    <!-- ── Content ────────────────────────────────────────── -->
+    <main class="content">
+
+      <!-- Toolbar -->
+      <div class="toolbar">
+        <button class="btn btn-primary" id="btn-upload">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="16 16 12 12 8 16"/><line x1="12" y1="12" x2="12" y2="21"/>
+            <path d="M20.39 18.39A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.3"/>
+          </svg>
+          Upload
+        </button>
+        <button class="btn" id="btn-new-folder">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/>
+            <line x1="12" y1="11" x2="12" y2="17"/><line x1="9" y1="14" x2="15" y2="14"/>
+          </svg>
+          New Folder
+        </button>
+        <button class="btn btn-sm" id="btn-select-all" title="Select all files in current view">
+          Select All
+        </button>
+        <div class="toolbar-search">
+          <svg class="toolbar-search-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="text" id="search-input" placeholder="Filter files…" autocomplete="off" spellcheck="false" />
+        </div>
+        <div class="toolbar-spacer"></div>
+        <div class="view-toggle">
+          <button class="btn active" id="btn-grid-view" title="Grid view">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+          </button>
+          <button class="btn" id="btn-list-view" title="List view">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Selection Bar (hidden until files selected) -->
+      <div class="selection-bar hidden" id="selection-bar">
+        <span class="selection-count" id="selection-count">0 selected</span>
+        <div class="copy-dropdown" id="copy-selected-dropdown">
+          <button class="btn btn-primary btn-sm" id="btn-copy-selected">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            Copy Paths
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="copy-dropdown-menu" id="copy-dropdown-menu">
+            <button data-format="cdn">
+              <span class="format-icon">🔗</span>
+              <span>CDN URLs <em>(jsDelivr)</em></span>
+            </button>
+            <button data-format="raw">
+              <span class="format-icon">🔗</span>
+              <span>Raw URLs <em>(GitHub raw)</em></span>
+            </button>
+            <button data-format="path">
+              <span class="format-icon">📁</span>
+              <span>Relative Paths</span>
+            </button>
+            <button data-format="filename">
+              <span class="format-icon">📄</span>
+              <span>Filenames Only</span>
+            </button>
+          </div>
+        </div>
+        <div class="toolbar-spacer"></div>
+        <button class="btn btn-sm" id="btn-deselect">✕ Clear</button>
+      </div>
+
+      <!-- File Area -->
+      <div class="file-area" id="file-area"></div>
+
+    </main>
+  </div>
+
+  <!-- ── Modal Backdrop ────────────────────────────────────── -->
+  <div class="modal-backdrop hidden" id="modal-backdrop">
+
+    <!-- Settings -->
+    <div class="modal hidden" id="modal-settings">
+      <div class="modal-header">
+        <h2>Settings</h2>
+        <button class="modal-close" id="settings-close-btn">✕</button>
+      </div>
+      <div class="modal-body">
+        <form id="settings-form" onsubmit="return false">
+          <div class="form-group">
+            <label class="form-label" for="settings-token">GitHub Personal Access Token</label>
+            <input class="form-input mono" type="password" id="settings-token" name="token"
+              placeholder="ghp_…" autocomplete="off" spellcheck="false" />
+            <p class="form-hint">Requires <strong>Contents: Read &amp; Write</strong> permission. Saved to browser localStorage only.</p>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="settings-owner">Owner</label>
+              <input class="form-input mono" type="text" id="settings-owner" name="owner" placeholder="username" />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="settings-repo">Repository</label>
+              <input class="form-input mono" type="text" id="settings-repo" name="repo" placeholder="repo-name" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="settings-branch">Branch</label>
+            <input class="form-input mono" type="text" id="settings-branch" name="branch" placeholder="main" />
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button class="btn" id="settings-cancel-btn">Cancel</button>
+        <button class="btn btn-primary" id="settings-save-btn">Save Settings</button>
+      </div>
+    </div>
+
+    <!-- New Folder -->
+    <div class="modal hidden" id="modal-new-folder">
+      <div class="modal-header">
+        <h2>New Folder</h2>
+        <button class="modal-close" id="new-folder-close-btn">✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label class="form-label" for="new-folder-input">Folder Name</label>
+          <input class="form-input" type="text" id="new-folder-input"
+            placeholder="e.g. avatars" autocomplete="off" spellcheck="false" />
+          <p class="form-hint">Letters, numbers, hyphens, underscores, and dots only. A <code>.gitkeep</code> placeholder file will be created inside.</p>
+        </div>
+        <p class="form-path-preview" id="new-folder-path-preview"></p>
+      </div>
+      <div class="modal-footer">
+        <button class="btn" id="new-folder-cancel-btn">Cancel</button>
+        <button class="btn btn-primary" id="new-folder-submit-btn">Create</button>
+      </div>
+    </div>
+
+    <!-- Delete Confirm -->
+    <div class="modal hidden" id="modal-delete">
+      <div class="modal-header">
+        <h2>Delete File</h2>
+        <button class="modal-close" id="delete-close-btn">✕</button>
+      </div>
+      <div class="modal-body">
+        <p>Are you sure you want to delete <strong id="delete-filename"></strong>?</p>
+        <p class="form-hint" style="margin-top:8px">This will commit a deletion directly to the <code id="delete-branch-label"></code> branch. This cannot be undone from this tool.</p>
+      </div>
+      <div class="modal-footer">
+        <button class="btn" id="delete-cancel-btn">Cancel</button>
+        <button class="btn btn-danger" id="delete-confirm-btn">Delete</button>
+      </div>
+    </div>
+
+    <!-- Upload -->
+    <div class="modal modal-wide hidden" id="modal-upload">
+      <div class="modal-header">
+        <h2>Upload Files</h2>
+        <button class="modal-close" id="upload-close-btn">✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="upload-destination">
+          Uploading to: <code id="upload-destination-path">/</code>
+        </div>
+        <div class="upload-drop-zone" id="modal-drop-zone">
+          <div class="upload-drop-zone-icon">☁</div>
+          <p><strong>Drop files here</strong> or <span class="upload-browse">click to browse</span></p>
+          <p class="form-hint">Any file type accepted</p>
+        </div>
+        <div class="upload-queue" id="upload-queue-list"></div>
+        <div class="upload-progress-bar hidden" id="upload-progress-bar">
+          <div class="upload-progress-fill" id="upload-progress-fill" style="width:0%"></div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn" id="upload-cancel-btn">Close</button>
+        <button class="btn btn-primary" id="upload-start-btn">Upload All</button>
+      </div>
+    </div>
+
+    <!-- Copy Folder Paths -->
+    <div class="modal modal-wide hidden" id="modal-copy-folder">
+      <div class="modal-header">
+        <h2>Copy Folder Paths</h2>
+        <button class="modal-close" id="copy-folder-close-btn">✕</button>
+      </div>
+      <div class="modal-body">
+        <p class="copy-folder-subtitle">
+          Folder: <code id="copy-folder-name"></code>
+          <span class="copy-folder-count" id="copy-folder-count"></span>
+        </p>
+        <div class="format-tabs" id="copy-folder-format-tabs">
+          <button class="format-tab active" data-format="cdn">CDN URLs</button>
+          <button class="format-tab" data-format="raw">Raw URLs</button>
+          <button class="format-tab" data-format="path">Relative Paths</button>
+          <button class="format-tab" data-format="filename">Filenames</button>
+        </div>
+        <pre class="copy-preview" id="copy-folder-preview">Loading…</pre>
+      </div>
+      <div class="modal-footer">
+        <button class="btn" id="copy-folder-close-btn2">Close</button>
+        <button class="btn btn-primary" id="copy-folder-copy-btn">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          Copy to Clipboard
+        </button>
+      </div>
+    </div>
+
+  </div><!-- /modal-backdrop -->
+
+  <!-- ── Context Menu (injected by JS) ─────────────────────── -->
+
+  <!-- ── Toast Container ───────────────────────────────────── -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- Hidden file input -->
+  <input type="file" id="file-input" multiple hidden />
+
+  <script src="app.js"></script>
+</body>
+</html>

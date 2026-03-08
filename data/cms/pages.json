@@ -1,0 +1,31 @@
+{
+  "pages": [
+    {
+      "id": "home",
+      "slug": "home",
+      "title": "Home",
+      "description": "Welcome to nomnompewpew",
+      "published": true,
+      "tags": ["home"],
+      "sections": [
+        { "type": "hero", "id": "hero-main" }
+      ],
+      "createdAt": "2025-01-01T00:00:00.000Z",
+      "updatedAt": "2025-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "gallery",
+      "slug": "gallery",
+      "title": "Gallery",
+      "description": "Asset gallery",
+      "published": true,
+      "tags": ["gallery", "media"],
+      "sections": [
+        { "type": "gallery", "id": "main-gallery" }
+      ],
+      "createdAt": "2025-01-01T00:00:00.000Z",
+      "updatedAt": "2025-01-01T00:00:00.000Z"
+    }
+  ],
+  "updatedAt": "2025-01-01T00:00:00.000Z"
+}
