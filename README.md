@@ -21,7 +21,9 @@ https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/avatars/pho
 ## Asset Manager (CMS)
 
 A lightweight browser-based CMS lives at [`cms/index.html`](./cms/index.html).  
-Open it locally or deploy it to GitHub Pages to manage your CDN assets without touching the command line.
+It is automatically deployed to **GitHub Pages** on every push to `main`:
+
+> **Live URL:** https://nomnompewpew.github.io/nomnompewpewCDN/
 
 **Features:**
 - 📂 Browse folders in a sidebar tree — click any folder to open it
@@ -36,7 +38,7 @@ Open it locally or deploy it to GitHub Pages to manage your CDN assets without t
 - Right-click context menu on any file or folder
 
 **Setup:**
-1. Open `cms/index.html` in your browser (or deploy to GitHub Pages)
+1. Visit the live CMS at https://nomnompewpew.github.io/nomnompewpewCDN/ (or open `cms/index.html` locally)
 2. Click **Settings** (top-right)
 3. Paste a GitHub PAT with **Contents: Read & Write** permission
 4. Owner / repo / branch are pre-filled — adjust if needed
@@ -120,3 +122,4 @@ npm run check        # validate + manifest in one step
 |----------|---------|-------------|
 | `validate.yml` | Push / PR touching `data/**` | Validates every `.json` against its schema |
 | `generate-manifest.yml` | Push to `main` (asset files) | Regenerates `manifest.json` files and auto-commits |
+| `deploy-pages.yml` | Push to `main` touching `cms/**` (or manual) | Deploys the CMS to GitHub Pages |
