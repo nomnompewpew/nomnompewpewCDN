@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T07:36:38.824Z",
+  "generatedAt": "2026-03-15T19:18:04.014Z",
   "cdnBase": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main",
   "rawBase": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main",
   "count": 3,
@@ -18,7 +18,7 @@
       "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/data/cms/config.json",
       "ext": ".json",
       "size": 341,
-      "updatedAt": "2026-03-08T07:36:35.828Z"
+      "updatedAt": "2026-03-15T19:17:57.925Z"
     },
     {
       "path": "data/cms/navigation.json",
@@ -26,7 +26,7 @@
       "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/data/cms/navigation.json",
       "ext": ".json",
       "size": 501,
-      "updatedAt": "2026-03-08T07:36:35.828Z"
+      "updatedAt": "2026-03-15T19:17:57.925Z"
     },
     {
       "path": "data/cms/pages.json",
@@ -34,7 +34,7 @@
       "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/data/cms/pages.json",
       "ext": ".json",
       "size": 766,
-      "updatedAt": "2026-03-08T07:36:35.828Z"
+      "updatedAt": "2026-03-15T19:17:57.925Z"
     }
   ]
 }
