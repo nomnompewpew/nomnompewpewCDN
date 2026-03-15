@@ -1,8 +1,753 @@
 {
   "category": "images",
-  "generatedAt": "2026-03-15T19:18:04.014Z",
+  "generatedAt": "2026-03-15T19:20:30.780Z",
   "cdnBase": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main",
   "rawBase": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main",
-  "count": 0,
-  "assets": []
+  "count": 93,
+  "assets": [
+    {
+      "path": "images/campaign/AshenMarch/v1.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/campaign/AshenMarch/v1.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/campaign/AshenMarch/v1.jpg",
+      "ext": ".jpg",
+      "size": 491726,
+      "updatedAt": "2026-03-15T19:20:28.564Z"
+    },
+    {
+      "path": "images/campaign/AshenMarch/v2.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/campaign/AshenMarch/v2.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/campaign/AshenMarch/v2.jpg",
+      "ext": ".jpg",
+      "size": 477503,
+      "updatedAt": "2026-03-15T19:20:28.566Z"
+    },
+    {
+      "path": "images/campaign/AshenMarch/v3.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/campaign/AshenMarch/v3.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/campaign/AshenMarch/v3.jpg",
+      "ext": ".jpg",
+      "size": 537470,
+      "updatedAt": "2026-03-15T19:20:28.568Z"
+    },
+    {
+      "path": "images/campaign/AshenMarch/v4.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/campaign/AshenMarch/v4.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/campaign/AshenMarch/v4.jpg",
+      "ext": ".jpg",
+      "size": 546617,
+      "updatedAt": "2026-03-15T19:20:28.571Z"
+    },
+    {
+      "path": "images/campaign/CrimsonAltar/ch3-crimson-altar.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/campaign/CrimsonAltar/ch3-crimson-altar.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/campaign/CrimsonAltar/ch3-crimson-altar.jpg",
+      "ext": ".jpg",
+      "size": 612979,
+      "updatedAt": "2026-03-15T19:20:28.572Z"
+    },
+    {
+      "path": "images/campaign/CrimsonAltar/v1.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/campaign/CrimsonAltar/v1.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/campaign/CrimsonAltar/v1.jpg",
+      "ext": ".jpg",
+      "size": 595120,
+      "updatedAt": "2026-03-15T19:20:28.574Z"
+    },
+    {
+      "path": "images/campaign/CrimsonAltar/v2.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/campaign/CrimsonAltar/v2.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/campaign/CrimsonAltar/v2.jpg",
+      "ext": ".jpg",
+      "size": 572885,
+      "updatedAt": "2026-03-15T19:20:28.576Z"
+    },
+    {
+      "path": "images/campaign/CrimsonAltar/v3.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/campaign/CrimsonAltar/v3.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/campaign/CrimsonAltar/v3.jpg",
+      "ext": ".jpg",
+      "size": 567863,
+      "updatedAt": "2026-03-15T19:20:28.578Z"
+    },
+    {
+      "path": "images/campaign/CrownOfNothing/v1.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/campaign/CrownOfNothing/v1.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/campaign/CrownOfNothing/v1.jpg",
+      "ext": ".jpg",
+      "size": 597632,
+      "updatedAt": "2026-03-15T19:20:28.579Z"
+    },
+    {
+      "path": "images/campaign/CrownOfNothing/v2.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/campaign/CrownOfNothing/v2.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/campaign/CrownOfNothing/v2.jpg",
+      "ext": ".jpg",
+      "size": 549576,
+      "updatedAt": "2026-03-15T19:20:28.579Z"
+    },
+    {
+      "path": "images/campaign/CrownOfNothing/v3.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/campaign/CrownOfNothing/v3.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/campaign/CrownOfNothing/v3.jpg",
+      "ext": ".jpg",
+      "size": 562868,
+      "updatedAt": "2026-03-15T19:20:28.580Z"
+    },
+    {
+      "path": "images/campaign/CrownOfNothing/v4.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/campaign/CrownOfNothing/v4.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/campaign/CrownOfNothing/v4.jpg",
+      "ext": ".jpg",
+      "size": 620674,
+      "updatedAt": "2026-03-15T19:20:28.582Z"
+    },
+    {
+      "path": "images/campaign/FracturedVoid/lucid-origin____SETTINGS_Phoenix_model_1344_768_CINEMATIC_Prompt_Magic_ON_Alchemy_ON_4_i-0_2d7d8b10-4af5-4de0-b904-4a97ad89fb20.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/campaign/FracturedVoid/lucid-origin____SETTINGS_Phoenix_model_1344_768_CINEMATIC_Prompt_Magic_ON_Alchemy_ON_4_i-0_2d7d8b10-4af5-4de0-b904-4a97ad89fb20.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/campaign/FracturedVoid/lucid-origin____SETTINGS_Phoenix_model_1344_768_CINEMATIC_Prompt_Magic_ON_Alchemy_ON_4_i-0_2d7d8b10-4af5-4de0-b904-4a97ad89fb20.jpg",
+      "ext": ".jpg",
+      "size": 557751,
+      "updatedAt": "2026-03-15T19:20:28.584Z"
+    },
+    {
+      "path": "images/campaign/FracturedVoid/lucid-origin____SETTINGS_Phoenix_model_1344_768_CINEMATIC_Prompt_Magic_ON_Alchemy_ON_4_i-1_db7f5263-de93-471b-915c-73dc81b97964.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/campaign/FracturedVoid/lucid-origin____SETTINGS_Phoenix_model_1344_768_CINEMATIC_Prompt_Magic_ON_Alchemy_ON_4_i-1_db7f5263-de93-471b-915c-73dc81b97964.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/campaign/FracturedVoid/lucid-origin____SETTINGS_Phoenix_model_1344_768_CINEMATIC_Prompt_Magic_ON_Alchemy_ON_4_i-1_db7f5263-de93-471b-915c-73dc81b97964.jpg",
+      "ext": ".jpg",
+      "size": 550425,
+      "updatedAt": "2026-03-15T19:20:28.584Z"
+    },
+    {
+      "path": "images/campaign/FracturedVoid/lucid-origin____SETTINGS_Phoenix_model_1344_768_CINEMATIC_Prompt_Magic_ON_Alchemy_ON_4_i-2_4426e952-3515-424a-aac0-e09b000aec76.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/campaign/FracturedVoid/lucid-origin____SETTINGS_Phoenix_model_1344_768_CINEMATIC_Prompt_Magic_ON_Alchemy_ON_4_i-2_4426e952-3515-424a-aac0-e09b000aec76.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/campaign/FracturedVoid/lucid-origin____SETTINGS_Phoenix_model_1344_768_CINEMATIC_Prompt_Magic_ON_Alchemy_ON_4_i-2_4426e952-3515-424a-aac0-e09b000aec76.jpg",
+      "ext": ".jpg",
+      "size": 608747,
+      "updatedAt": "2026-03-15T19:20:28.585Z"
+    },
+    {
+      "path": "images/campaign/HollowCourt/v1.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/campaign/HollowCourt/v1.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/campaign/HollowCourt/v1.jpg",
+      "ext": ".jpg",
+      "size": 547191,
+      "updatedAt": "2026-03-15T19:20:28.587Z"
+    },
+    {
+      "path": "images/campaign/HollowCourt/v2.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/campaign/HollowCourt/v2.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/campaign/HollowCourt/v2.jpg",
+      "ext": ".jpg",
+      "size": 566641,
+      "updatedAt": "2026-03-15T19:20:28.590Z"
+    },
+    {
+      "path": "images/campaign/HollowCourt/v3.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/campaign/HollowCourt/v3.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/campaign/HollowCourt/v3.jpg",
+      "ext": ".jpg",
+      "size": 552240,
+      "updatedAt": "2026-03-15T19:20:28.592Z"
+    },
+    {
+      "path": "images/campaign/HollowCourt/v4.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/campaign/HollowCourt/v4.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/campaign/HollowCourt/v4.jpg",
+      "ext": ".jpg",
+      "size": 614659,
+      "updatedAt": "2026-03-15T19:20:28.595Z"
+    },
+    {
+      "path": "images/campaign/ShatteredVeil/v1.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/campaign/ShatteredVeil/v1.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/campaign/ShatteredVeil/v1.jpg",
+      "ext": ".jpg",
+      "size": 542289,
+      "updatedAt": "2026-03-15T19:20:28.597Z"
+    },
+    {
+      "path": "images/campaign/ShatteredVeil/v2.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/campaign/ShatteredVeil/v2.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/campaign/ShatteredVeil/v2.jpg",
+      "ext": ".jpg",
+      "size": 510694,
+      "updatedAt": "2026-03-15T19:20:28.599Z"
+    },
+    {
+      "path": "images/campaign/ShatteredVeil/v3.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/campaign/ShatteredVeil/v3.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/campaign/ShatteredVeil/v3.jpg",
+      "ext": ".jpg",
+      "size": 502993,
+      "updatedAt": "2026-03-15T19:20:28.601Z"
+    },
+    {
+      "path": "images/campaign/ShatteredVeil/v4.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/campaign/ShatteredVeil/v4.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/campaign/ShatteredVeil/v4.jpg",
+      "ext": ".jpg",
+      "size": 484053,
+      "updatedAt": "2026-03-15T19:20:28.602Z"
+    },
+    {
+      "path": "images/campaign/SilentRecursion/v2.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/campaign/SilentRecursion/v2.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/campaign/SilentRecursion/v2.jpg",
+      "ext": ".jpg",
+      "size": 558421,
+      "updatedAt": "2026-03-15T19:20:28.603Z"
+    },
+    {
+      "path": "images/campaign/SilentRecursion/v3.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/campaign/SilentRecursion/v3.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/campaign/SilentRecursion/v3.jpg",
+      "ext": ".jpg",
+      "size": 468025,
+      "updatedAt": "2026-03-15T19:20:28.605Z"
+    },
+    {
+      "path": "images/campaign/SilentRecursion/v4.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/campaign/SilentRecursion/v4.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/campaign/SilentRecursion/v4.jpg",
+      "ext": ".jpg",
+      "size": 537044,
+      "updatedAt": "2026-03-15T19:20:28.607Z"
+    },
+    {
+      "path": "images/campaign/The Hollow/ch2-hollow.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/campaign/The Hollow/ch2-hollow.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/campaign/The Hollow/ch2-hollow.jpg",
+      "ext": ".jpg",
+      "size": 612271,
+      "updatedAt": "2026-03-15T19:20:28.608Z"
+    },
+    {
+      "path": "images/campaign/The Hollow/v1.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/campaign/The Hollow/v1.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/campaign/The Hollow/v1.jpg",
+      "ext": ".jpg",
+      "size": 671706,
+      "updatedAt": "2026-03-15T19:20:28.609Z"
+    },
+    {
+      "path": "images/campaign/The Hollow/v2.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/campaign/The Hollow/v2.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/campaign/The Hollow/v2.jpg",
+      "ext": ".jpg",
+      "size": 719678,
+      "updatedAt": "2026-03-15T19:20:28.610Z"
+    },
+    {
+      "path": "images/campaign/The Hollow/v3.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/campaign/The Hollow/v3.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/campaign/The Hollow/v3.jpg",
+      "ext": ".jpg",
+      "size": 643821,
+      "updatedAt": "2026-03-15T19:20:28.611Z"
+    },
+    {
+      "path": "images/campaign/ch1-shattered-veil.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/campaign/ch1-shattered-veil.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/campaign/ch1-shattered-veil.jpg",
+      "ext": ".jpg",
+      "size": 542289,
+      "updatedAt": "2026-03-15T19:20:28.613Z"
+    },
+    {
+      "path": "images/campaign/ch2-hollow.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/campaign/ch2-hollow.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/campaign/ch2-hollow.jpg",
+      "ext": ".jpg",
+      "size": 612271,
+      "updatedAt": "2026-03-15T19:20:28.613Z"
+    },
+    {
+      "path": "images/campaign/ch3-crimson-altar.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/campaign/ch3-crimson-altar.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/campaign/ch3-crimson-altar.jpg",
+      "ext": ".jpg",
+      "size": 612979,
+      "updatedAt": "2026-03-15T19:20:28.614Z"
+    },
+    {
+      "path": "images/campaign/ch4-ashen-march.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/campaign/ch4-ashen-march.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/campaign/ch4-ashen-march.jpg",
+      "ext": ".jpg",
+      "size": 491726,
+      "updatedAt": "2026-03-15T19:20:28.616Z"
+    },
+    {
+      "path": "images/campaign/ch5-hollow-court.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/campaign/ch5-hollow-court.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/campaign/ch5-hollow-court.jpg",
+      "ext": ".jpg",
+      "size": 547191,
+      "updatedAt": "2026-03-15T19:20:28.618Z"
+    },
+    {
+      "path": "images/campaign/ch6-void-fracture.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/campaign/ch6-void-fracture.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/campaign/ch6-void-fracture.jpg",
+      "ext": ".jpg",
+      "size": 557751,
+      "updatedAt": "2026-03-15T19:20:28.620Z"
+    },
+    {
+      "path": "images/campaign/ch7-silent-recursion.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/campaign/ch7-silent-recursion.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/campaign/ch7-silent-recursion.jpg",
+      "ext": ".jpg",
+      "size": 558421,
+      "updatedAt": "2026-03-15T19:20:28.621Z"
+    },
+    {
+      "path": "images/campaign/ch8-silent-throne.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/campaign/ch8-silent-throne.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/campaign/ch8-silent-throne.jpg",
+      "ext": ".jpg",
+      "size": 597632,
+      "updatedAt": "2026-03-15T19:20:28.621Z"
+    },
+    {
+      "path": "images/portraits/DarkElfNPC/v1.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/DarkElfNPC/v1.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/DarkElfNPC/v1.jpg",
+      "ext": ".jpg",
+      "size": 446930,
+      "updatedAt": "2026-03-15T19:20:28.623Z"
+    },
+    {
+      "path": "images/portraits/DarkElfNPC/v2.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/DarkElfNPC/v2.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/DarkElfNPC/v2.jpg",
+      "ext": ".jpg",
+      "size": 551275,
+      "updatedAt": "2026-03-15T19:20:28.624Z"
+    },
+    {
+      "path": "images/portraits/DarkElfNPC/v3.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/DarkElfNPC/v3.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/DarkElfNPC/v3.jpg",
+      "ext": ".jpg",
+      "size": 547185,
+      "updatedAt": "2026-03-15T19:20:28.625Z"
+    },
+    {
+      "path": "images/portraits/DarkElfNPC/v4.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/DarkElfNPC/v4.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/DarkElfNPC/v4.jpg",
+      "ext": ".jpg",
+      "size": 543553,
+      "updatedAt": "2026-03-15T19:20:28.626Z"
+    },
+    {
+      "path": "images/portraits/Draconian/v1.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/Draconian/v1.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/Draconian/v1.jpg",
+      "ext": ".jpg",
+      "size": 527282,
+      "updatedAt": "2026-03-15T19:20:28.628Z"
+    },
+    {
+      "path": "images/portraits/Draconian/v2.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/Draconian/v2.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/Draconian/v2.jpg",
+      "ext": ".jpg",
+      "size": 524068,
+      "updatedAt": "2026-03-15T19:20:28.630Z"
+    },
+    {
+      "path": "images/portraits/Draconian/v4.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/Draconian/v4.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/Draconian/v4.jpg",
+      "ext": ".jpg",
+      "size": 514059,
+      "updatedAt": "2026-03-15T19:20:28.632Z"
+    },
+    {
+      "path": "images/portraits/DragonPrincess/v1.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/DragonPrincess/v1.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/DragonPrincess/v1.jpg",
+      "ext": ".jpg",
+      "size": 501478,
+      "updatedAt": "2026-03-15T19:20:28.633Z"
+    },
+    {
+      "path": "images/portraits/DragonPrincess/v2.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/DragonPrincess/v2.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/DragonPrincess/v2.jpg",
+      "ext": ".jpg",
+      "size": 551953,
+      "updatedAt": "2026-03-15T19:20:28.636Z"
+    },
+    {
+      "path": "images/portraits/DragonPrincess/v3.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/DragonPrincess/v3.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/DragonPrincess/v3.jpg",
+      "ext": ".jpg",
+      "size": 492538,
+      "updatedAt": "2026-03-15T19:20:28.637Z"
+    },
+    {
+      "path": "images/portraits/DragonPrincess/v4.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/DragonPrincess/v4.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/DragonPrincess/v4.jpg",
+      "ext": ".jpg",
+      "size": 525371,
+      "updatedAt": "2026-03-15T19:20:28.639Z"
+    },
+    {
+      "path": "images/portraits/Enemies/v2.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/Enemies/v2.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/Enemies/v2.jpg",
+      "ext": ".jpg",
+      "size": 514341,
+      "updatedAt": "2026-03-15T19:20:28.642Z"
+    },
+    {
+      "path": "images/portraits/Enemies/v3.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/Enemies/v3.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/Enemies/v3.jpg",
+      "ext": ".jpg",
+      "size": 535487,
+      "updatedAt": "2026-03-15T19:20:28.642Z"
+    },
+    {
+      "path": "images/portraits/Enemies/v4.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/Enemies/v4.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/Enemies/v4.jpg",
+      "ext": ".jpg",
+      "size": 606721,
+      "updatedAt": "2026-03-15T19:20:28.643Z"
+    },
+    {
+      "path": "images/portraits/Mage/v1.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/Mage/v1.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/Mage/v1.jpg",
+      "ext": ".jpg",
+      "size": 467522,
+      "updatedAt": "2026-03-15T19:20:28.645Z"
+    },
+    {
+      "path": "images/portraits/Mage/v2.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/Mage/v2.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/Mage/v2.jpg",
+      "ext": ".jpg",
+      "size": 556789,
+      "updatedAt": "2026-03-15T19:20:28.647Z"
+    },
+    {
+      "path": "images/portraits/Mage/v3.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/Mage/v3.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/Mage/v3.jpg",
+      "ext": ".jpg",
+      "size": 566999,
+      "updatedAt": "2026-03-15T19:20:28.648Z"
+    },
+    {
+      "path": "images/portraits/Mage/v4.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/Mage/v4.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/Mage/v4.jpg",
+      "ext": ".jpg",
+      "size": 503176,
+      "updatedAt": "2026-03-15T19:20:28.649Z"
+    },
+    {
+      "path": "images/portraits/Monk/v1.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/Monk/v1.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/Monk/v1.jpg",
+      "ext": ".jpg",
+      "size": 511264,
+      "updatedAt": "2026-03-15T19:20:28.651Z"
+    },
+    {
+      "path": "images/portraits/Monk/v2.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/Monk/v2.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/Monk/v2.jpg",
+      "ext": ".jpg",
+      "size": 479586,
+      "updatedAt": "2026-03-15T19:20:28.653Z"
+    },
+    {
+      "path": "images/portraits/Monk/v3.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/Monk/v3.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/Monk/v3.jpg",
+      "ext": ".jpg",
+      "size": 534526,
+      "updatedAt": "2026-03-15T19:20:28.656Z"
+    },
+    {
+      "path": "images/portraits/Monk/v4.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/Monk/v4.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/Monk/v4.jpg",
+      "ext": ".jpg",
+      "size": 474913,
+      "updatedAt": "2026-03-15T19:20:28.658Z"
+    },
+    {
+      "path": "images/portraits/Necromancer/v1.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/Necromancer/v1.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/Necromancer/v1.jpg",
+      "ext": ".jpg",
+      "size": 477390,
+      "updatedAt": "2026-03-15T19:20:28.659Z"
+    },
+    {
+      "path": "images/portraits/Necromancer/v2.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/Necromancer/v2.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/Necromancer/v2.jpg",
+      "ext": ".jpg",
+      "size": 475222,
+      "updatedAt": "2026-03-15T19:20:28.660Z"
+    },
+    {
+      "path": "images/portraits/Necromancer/v3.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/Necromancer/v3.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/Necromancer/v3.jpg",
+      "ext": ".jpg",
+      "size": 532648,
+      "updatedAt": "2026-03-15T19:20:28.662Z"
+    },
+    {
+      "path": "images/portraits/Necromancer/v4.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/Necromancer/v4.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/Necromancer/v4.jpg",
+      "ext": ".jpg",
+      "size": 518264,
+      "updatedAt": "2026-03-15T19:20:28.663Z"
+    },
+    {
+      "path": "images/portraits/Pyro/v5.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/Pyro/v5.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/Pyro/v5.jpg",
+      "ext": ".jpg",
+      "size": 513379,
+      "updatedAt": "2026-03-15T19:20:28.665Z"
+    },
+    {
+      "path": "images/portraits/Pyro/v6.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/Pyro/v6.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/Pyro/v6.jpg",
+      "ext": ".jpg",
+      "size": 491472,
+      "updatedAt": "2026-03-15T19:20:28.666Z"
+    },
+    {
+      "path": "images/portraits/Pyro/v7.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/Pyro/v7.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/Pyro/v7.jpg",
+      "ext": ".jpg",
+      "size": 482782,
+      "updatedAt": "2026-03-15T19:20:28.668Z"
+    },
+    {
+      "path": "images/portraits/Pyro/v8.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/Pyro/v8.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/Pyro/v8.jpg",
+      "ext": ".jpg",
+      "size": 546834,
+      "updatedAt": "2026-03-15T19:20:28.670Z"
+    },
+    {
+      "path": "images/portraits/Ranger/ranger-portrait.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/Ranger/ranger-portrait.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/Ranger/ranger-portrait.jpg",
+      "ext": ".jpg",
+      "size": 511153,
+      "updatedAt": "2026-03-15T19:20:28.672Z"
+    },
+    {
+      "path": "images/portraits/Ranger/ranger-v2.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/Ranger/ranger-v2.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/Ranger/ranger-v2.jpg",
+      "ext": ".jpg",
+      "size": 451012,
+      "updatedAt": "2026-03-15T19:20:28.672Z"
+    },
+    {
+      "path": "images/portraits/Ranger/ranger-v3.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/Ranger/ranger-v3.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/Ranger/ranger-v3.jpg",
+      "ext": ".jpg",
+      "size": 508538,
+      "updatedAt": "2026-03-15T19:20:28.674Z"
+    },
+    {
+      "path": "images/portraits/Ranger/ranger-v4.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/Ranger/ranger-v4.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/Ranger/ranger-v4.jpg",
+      "ext": ".jpg",
+      "size": 449492,
+      "updatedAt": "2026-03-15T19:20:28.675Z"
+    },
+    {
+      "path": "images/portraits/Ranger/v1.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/Ranger/v1.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/Ranger/v1.jpg",
+      "ext": ".jpg",
+      "size": 510908,
+      "updatedAt": "2026-03-15T19:20:28.676Z"
+    },
+    {
+      "path": "images/portraits/Ranger/v2.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/Ranger/v2.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/Ranger/v2.jpg",
+      "ext": ".jpg",
+      "size": 410438,
+      "updatedAt": "2026-03-15T19:20:28.677Z"
+    },
+    {
+      "path": "images/portraits/Ranger/v3.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/Ranger/v3.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/Ranger/v3.jpg",
+      "ext": ".jpg",
+      "size": 504379,
+      "updatedAt": "2026-03-15T19:20:28.678Z"
+    },
+    {
+      "path": "images/portraits/Ranger/v4.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/Ranger/v4.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/Ranger/v4.jpg",
+      "ext": ".jpg",
+      "size": 494789,
+      "updatedAt": "2026-03-15T19:20:28.679Z"
+    },
+    {
+      "path": "images/portraits/Warrior/warrior-portrait.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/Warrior/warrior-portrait.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/Warrior/warrior-portrait.jpg",
+      "ext": ".jpg",
+      "size": 533677,
+      "updatedAt": "2026-03-15T19:20:28.680Z"
+    },
+    {
+      "path": "images/portraits/Warrior/warrior-v2.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/Warrior/warrior-v2.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/Warrior/warrior-v2.jpg",
+      "ext": ".jpg",
+      "size": 443855,
+      "updatedAt": "2026-03-15T19:20:28.681Z"
+    },
+    {
+      "path": "images/portraits/Warrior/warrior-v3.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/Warrior/warrior-v3.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/Warrior/warrior-v3.jpg",
+      "ext": ".jpg",
+      "size": 400818,
+      "updatedAt": "2026-03-15T19:20:28.682Z"
+    },
+    {
+      "path": "images/portraits/Warrior/warrior-v4.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/Warrior/warrior-v4.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/Warrior/warrior-v4.jpg",
+      "ext": ".jpg",
+      "size": 448705,
+      "updatedAt": "2026-03-15T19:20:28.683Z"
+    },
+    {
+      "path": "images/portraits/_review/portrait-batch-01-block2/v1.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/_review/portrait-batch-01-block2/v1.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/_review/portrait-batch-01-block2/v1.jpg",
+      "ext": ".jpg",
+      "size": 633086,
+      "updatedAt": "2026-03-15T19:20:28.685Z"
+    },
+    {
+      "path": "images/portraits/_review/portrait-batch-01-block2/v2.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/_review/portrait-batch-01-block2/v2.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/_review/portrait-batch-01-block2/v2.jpg",
+      "ext": ".jpg",
+      "size": 555712,
+      "updatedAt": "2026-03-15T19:20:28.687Z"
+    },
+    {
+      "path": "images/portraits/_review/portrait-batch-01-block2/v3.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/_review/portrait-batch-01-block2/v3.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/_review/portrait-batch-01-block2/v3.jpg",
+      "ext": ".jpg",
+      "size": 559306,
+      "updatedAt": "2026-03-15T19:20:28.689Z"
+    },
+    {
+      "path": "images/portraits/_review/portrait-batch-01-block2/v4.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/_review/portrait-batch-01-block2/v4.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/_review/portrait-batch-01-block2/v4.jpg",
+      "ext": ".jpg",
+      "size": 602344,
+      "updatedAt": "2026-03-15T19:20:28.691Z"
+    },
+    {
+      "path": "images/portraits/dark-elf-npc.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/dark-elf-npc.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/dark-elf-npc.jpg",
+      "ext": ".jpg",
+      "size": 446930,
+      "updatedAt": "2026-03-15T19:20:28.692Z"
+    },
+    {
+      "path": "images/portraits/draconian-portrait.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/draconian-portrait.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/draconian-portrait.jpg",
+      "ext": ".jpg",
+      "size": 527282,
+      "updatedAt": "2026-03-15T19:20:28.694Z"
+    },
+    {
+      "path": "images/portraits/dragon-princess.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/dragon-princess.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/dragon-princess.jpg",
+      "ext": ".jpg",
+      "size": 501478,
+      "updatedAt": "2026-03-15T19:20:28.695Z"
+    },
+    {
+      "path": "images/portraits/mage-portrait.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/mage-portrait.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/mage-portrait.jpg",
+      "ext": ".jpg",
+      "size": 467522,
+      "updatedAt": "2026-03-15T19:20:28.697Z"
+    },
+    {
+      "path": "images/portraits/monk-portrait.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/monk-portrait.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/monk-portrait.jpg",
+      "ext": ".jpg",
+      "size": 511264,
+      "updatedAt": "2026-03-15T19:20:28.699Z"
+    },
+    {
+      "path": "images/portraits/necromancer-portrait.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/necromancer-portrait.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/necromancer-portrait.jpg",
+      "ext": ".jpg",
+      "size": 477390,
+      "updatedAt": "2026-03-15T19:20:28.700Z"
+    },
+    {
+      "path": "images/portraits/pyro-portrait.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/pyro-portrait.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/pyro-portrait.jpg",
+      "ext": ".jpg",
+      "size": 513379,
+      "updatedAt": "2026-03-15T19:20:28.702Z"
+    },
+    {
+      "path": "images/portraits/ranger-portrait.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/ranger-portrait.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/ranger-portrait.jpg",
+      "ext": ".jpg",
+      "size": 511153,
+      "updatedAt": "2026-03-15T19:20:28.703Z"
+    },
+    {
+      "path": "images/portraits/warrior-portrait.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/nomnompewpew/nomnompewpewCDN@main/images/portraits/warrior-portrait.jpg",
+      "rawUrl": "https://raw.githubusercontent.com/nomnompewpew/nomnompewpewCDN/main/images/portraits/warrior-portrait.jpg",
+      "ext": ".jpg",
+      "size": 533677,
+      "updatedAt": "2026-03-15T19:20:28.705Z"
+    }
+  ]
 }
